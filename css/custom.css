@@ -188,6 +188,9 @@ footer{
   padding:2px;
 }
 }
+iframe{
+  width: 100%;
+}
 
 .footer1 a
 {
