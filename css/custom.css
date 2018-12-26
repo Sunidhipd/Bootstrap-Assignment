@@ -1,0 +1,197 @@
+/* -- google font import-- */
+
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+html,body{
+  font-family: 'Charm', cursive;
+  padding:0;
+  margin:0;
+  height: 100%;
+  width: 100%;
+  background-color:#f4f4f4;
+}
+
+/*-- Font changing to google font--*/
+
+.modify{
+  font-family: 'Charm', cursive;
+}
+
+/* -- carousal CSS -- */
+
+.carousel-inner img{
+  width: 100%;
+  height: 450px;
+}
+
+.carousel-caption{
+  
+  font-family: 'Charm', cursive;
+}
+.carousel-caption h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+/*-- navbar CSS --*/
+.navbar-text{
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+  color: #49042a;
+}
+.dropdown-item, .nav-item{
+  color: rgb(201, 188, 165);
+  font-family: 'Charm', cursive;
+}
+/* -- Global -- */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+/*-- jumbotron-- */
+.jumbotron{
+  text-align: center;
+  display: inline;
+  background-color: #49042a;
+  height:50px;
+  font-size: 20px;
+  color: #49042a;
+  font-family: 'Charm', cursive;
+
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+/*-- Newsletter Email form --*/
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a;
+  font-family: 'Charm', cursive;
+  text-align: center;
+  font-size: 15px;
+}
+
+#newsletter h1{
+  float: center;
+  display: inline;
+  font-size: 40px;
+
+}
+
+#newsletter form {
+  float:right;
+  margin-top:10px;
+  
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+  
+}
+
+/* -- flex boxes -- */
+#boxes{
+  margin-top:20px;
+  display: flex;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/*-- footer -- */
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  font-family: 'Charm', cursive;
+
+}
+/* Media Queries */
+@media(max-width: 768px){
+  
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar,body{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+  .carousel-caption{
+    font-size: 20px;
+  }
+  iframe{
+    width: 100%;
+  }
+  
+.footer1 a
+{
+  float:center;
+  color:white;
+  padding:2px;
+}
+}
+
+.footer1 a
+{
+  float:right;
+  color:white;
+  padding:2px;
+}
